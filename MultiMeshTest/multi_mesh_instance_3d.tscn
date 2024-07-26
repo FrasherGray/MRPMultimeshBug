@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://s6q0mtr70ul0"]
+
+[sub_resource type="MultiMesh" id="MultiMesh_q6a52"]
+resource_local_to_scene = true
+use_colors = true
+
+[node name="MultiMeshInstance3D" type="MultiMeshInstance3D"]
+multimesh = SubResource("MultiMesh_q6a52")
